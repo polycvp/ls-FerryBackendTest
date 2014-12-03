@@ -5,6 +5,8 @@
  */
 package lsferrybackendtest;
 
+import dk.cphbusiness.bean.FerryManager;
+
 /**
  *
  * @author Jon
@@ -17,7 +19,7 @@ public class Main
      */
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        FerryManager fm = new FerryManager();
     }
     
 }
